@@ -5,7 +5,7 @@ Welcome to Griefwell - Griefwell was founded by Felicia McDonald, who suffered t
 The Home page provides an introduction into the service Felicia McDonald offers, the About page gives her background story that prompted her to set up Griefwell, the Services page details the various grief recovery packages she offers and the Contact page encourages to get in touch via email or phone, along with an indication where she is based. 
 
 ### Website Link
-[Griefwell London](https://clemencehuang.github.io/Project_1/)
+[Griefwell London](https://clemencehuang.github.io/Griefwell/)
 
 &nbsp;
 
