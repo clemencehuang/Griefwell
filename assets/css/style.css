@@ -1,0 +1,861 @@
+/* Google fonts import */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Asterix wildcard selector to override default styles added by the browser */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* OVERALL STYLES */
+
+body {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #595654;
+  background-color: #f8f8f8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/* Griefwell Logo */
+
+header {
+  display: grid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content:flex-start;
+  align-content: center;
+  padding-left: 25px;
+  width: 100%;
+  height: 60px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Footer */
+
+footer {
+  font-size: 0.7rem;
+  letter-spacing: 0.3px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background-color: #6f6d63;
+  color: #ffffff;
+  margin: 0px;
+  padding: 20px;
+}
+
+/* HOME page - Section 1 */
+
+/* Image 1 */
+
+.home-bgcolor-1 {
+  display: block;
+  background-color: #f8f8f8;
+  flex-grow: 1;
+}
+
+#home-pic-1 {
+  height: 350px;
+  width: 100%;
+  background: url("../images/page1-home/page1-home-section1/page1-home-section1-img1.webp")
+              no-repeat center center/cover;
+  margin-top: 60px;
+}
+
+#home-h3-1 {
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#home-article-1 {
+  padding: 60px 70px;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+/*  HOME page - Section 2 */
+
+/* Image 2 */
+
+#home-pic-2 {
+  height: 380px;
+  width: 100%;
+  background: url("../images/page1-home/page1-home-section2/page1-home-section2-img1.webp")
+    no-repeat center center/cover;
+}
+
+.home-bgcolor-2 {
+  display: block;
+  background-color: #e4e0ce;
+}
+
+#home-h3-2 {
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#home-article-2 {
+  padding: 60px 70px;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+/* ABOUT page - Section 1 */
+
+/* Image 1 */
+
+.about-bgcolor-1 {
+  display: block;
+  background-color: #cfd3cf;
+  flex-grow: 1;
+}
+
+#about-pic-1 {
+  height: 500px;
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background: url("../images/page2-about/page2-about-section1/page2-about-section1-img1.webp")
+    no-repeat center center/cover;
+}
+
+#about-h3-1 {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#about-article-1 {
+  padding: 60px 80px;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+/* SERVICES page - Section 1 */
+
+/* Image 1 */
+
+.services-bgcolor-1 {
+  display: block;
+  background-color: #eeeeee;
+  flex-grow: 1;
+}
+
+#services-pic-1 {
+  height: 500px;
+  width: 100%;
+  background: url("../images/page3-services/page3-services-img1a.webp")
+    no-repeat center center/cover;
+  margin-top: 60px;
+}
+
+#services-h3-1 {
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#services-article-1 {
+  padding: 60px 70px;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Image 2 */
+
+.services-bgcolor-2 {
+  display: block;
+  background-color: #f3eee5;
+}
+
+#services-pic-2 {
+  height: 500px;
+  width: 100%;
+  background: url("../images/page3-services/page3-services-img2a.webp")
+    no-repeat center center/cover;
+}
+
+#services-h3-2 {
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#services-article-2 {
+  padding: 60px 70px;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Image 3 */
+
+.services-bgcolor-3 {
+  display: block;
+  background-color: #fcf4ec;
+}
+
+#services-pic-3 {
+  height: 500px;
+  width: 100%;
+  background: url("../images/page3-services/page3-services-img2b.webp")
+    no-repeat center center/cover;
+}
+
+#services-h3-3 {
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+#services-article-3 {
+  padding: 60px 70px;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+/* CONTACT page - Section 1 */
+
+/* Image 1 */
+
+.contact-bgcolor-1 {
+  background-color: #f7eddb;
+  flex-grow: 1;
+}
+
+#page4-contact-img1 {
+  height: 500px;
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  background: url("../images/page4-contact/page4-contact-img1.webp")
+              no-repeat center center/cover;
+}
+
+#contact-h3-1 {
+  padding-bottom: 30px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.links {
+  color: #595654;
+}
+
+#contact-article-1 {
+  padding: 60px 70px;
+  margin-bottom: 0;
+  font-size: 1.1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+/* ------------------------------------------------------------------------*/
+
+/* Media query: mobile and tablet up to (1023px) */
+
+@media screen and (max-width: 1023px) {
+
+/* ALWAYS KEEPING THE TOGGLER OR THE CHECKBOX ON TOP OF EVERYTHING: */
+
+  .toggler {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  width: 35px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.hamburger {
+  position: absolute; 
+  top: 0;
+  right: 0;
+  height: 40px;
+  width: 35px;
+
+/* FOR DISPLAYING EVERY ELEMENT IN THE CENTER: */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CREATING THE MIDDLE LINE OF THE HAMBURGER: */
+
+.hamburger > div {
+  position: relative;
+  top: 0;
+  right: 0;
+  background: rgb(0, 0, 0);
+  height: 2px;
+  width: 60%;
+  transition: all 0.4s ease;
+}
+
+/* CREATING THE TOP AND BOTTOM LINES: TOP AT -8PX ABOVE THE MIDDLE ONE AND BOTTOM ONE IS 8PX BELOW THE MIDDLE: */
+
+.hamburger > div::before,
+.hamburger > div::after {
+  content: "";
+  position: absolute;
+  top: -8px;
+  background: rgb(0, 0, 0);
+  width: 100%;
+  height: 2px;
+  transition: all 0.4s ease;
+}
+
+.hamburger > div::before {
+  right: 0;
+}
+
+.hamburger > div::after {
+  right: 0;
+  top: 8px;
+}
+
+/* IF THE TOGGLER IS IN ITS CHECKED STATE, THEN SETTING THE BACKGROUND OF THE MIDDLE LAYER TO COMPLETE BLACK AND OPAQUE: */
+
+.toggler:checked + .hamburger > div {
+  background: rgba(0, 0, 0, 0);
+}
+
+.toggler:checked + .hamburger > div::before {
+  top: 0;
+  transform: rotate(45deg);
+  background: black;
+}
+
+/* AND ROTATING THE TOP AND BOTTOM LINES: */
+
+.toggler:checked + .hamburger > div::after {
+  top: 0;
+  transform: rotate(135deg);
+  background: black;
+}
+
+/* MAIN MENU WITH THE WHITE BACKGROUND AND THE TEXT: */
+
+.menu {
+  z-index: 1;
+  position: absolute;
+  background: #f8f8f8;
+  width: 0%;
+  opacity: 100%;
+  height: 100vh;
+  top: 60px;
+
+/* APPLYING TRANSITION TO THE MENU: */
+
+  transition: all 0.4s ease;
+}
+
+/* IF THE TOGGLER IS CHECKED, THEN INCREASE THE WIDTH OF THE MENU TO 50% , CREATING A SMOOTH EFFECT: */
+
+.toggler:checked ~ .menu {
+  width: 70%;
+}
+
+/* STYLING THE LIST:  */
+
+.menu > div > ul {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 78px;
+  padding-left: 20px;
+
+/* HIDDEN INITIALLY: */
+
+  visibility: hidden;
+}
+
+.menu > div > ul > li {
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.menu > div > ul > li > a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* WHEN THE TOGGLER IS CHECKED, CHANGE THE VISIBILITY TO VISIBLE: */
+
+.toggler:checked ~ .menu > div > ul {
+  transition: visibility 0.4s ease;
+  transition-delay: 0.1s;
+  visibility: visible;
+}
+
+.toggler:checked ~ .menu > div > ul > li > a:hover {
+  color: rgb(0, 0, 0);
+}
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* Large devices (laptops and desktops, 768px and up) */
+
+
+@media screen and (min-width: 768px) {
+
+  /* HOME */
+
+  #home-pic-1 {
+  height: 600px;
+  margin-top: 60px;
+  flex-grow: 1;
+  }
+
+  #home-pic-2 {
+  height: 650px;
+  }
+
+  #home-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #home-article-1 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
+  #home-h3-2 {
+  padding-bottom: 40px;
+  font-size: 2rem;
+  }
+
+  #home-article-2 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
+  /* ABOUT */
+
+  #about-pic-1 {
+  height: 600px;
+  margin-top: 60px;
+  flex-grow: 1;
+  }
+
+  #about-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #about-article-1 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
+  /* SERVICES */
+
+  #services-pic-1 {
+  height: 600px;
+  margin-top: 60px;
+  flex-grow: 1;
+  }
+
+  #services-pic-2 {
+  height: 650px;
+  }
+
+  #services-pic-3 {
+  height: 650px;
+  }
+
+  #services-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #services-article-1 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
+  #services-h3-2 {
+  padding-bottom: 40px;
+  font-size: 2rem;
+  }
+
+  #services-article-2 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
+  #services-h3-3 {
+  padding-bottom: 40px;
+  font-size: 2rem;
+  }
+
+  #services-article-3 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
+  /* CONTACT */
+
+  #page4-contact-img1 {
+  height: 600px;
+  margin-top: 60px;
+  flex-grow: 1;
+  }
+
+  #contact-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #contact-article-1 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
+}
+
+/* ------------------------------------------------------------------------*/
+
+/* Large devices (laptops and desktops, 1024px and up) */
+
+@media screen and (min-width: 1024px) {
+
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      top: 0;
+      width: 100%;
+      padding: 5px 3%;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 0.8rem;
+  }
+  
+  input {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  ul {
+    float: right;
+  }
+
+  li {
+    list-style-type: none;
+    overflow: hidden;
+    float: left;
+  }
+
+  li a {
+    color: #595654;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 5px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  li a:hover {
+    color: #a9b1a8;
+  }
+
+  /* HOME */
+
+  #home-pic-1 {
+  height: 600px;
+  margin-top: 60px;
+  flex-grow: 1;
+  }
+
+  #home-pic-2 {
+  height: 650px;
+  }
+
+  #home-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #home-article-1 {
+  padding: 120px 200px;
+  font-size: 1.4rem;
+  }
+
+  #home-h3-2 {
+  padding-bottom: 40px;
+  font-size: 2rem;
+  }
+
+  #home-article-2 {
+  padding: 120px 200px;
+  font-size: 1.4rem;
+  }
+
+  footer {
+  font-size: 1rem;
+  letter-spacing: 0.3px;
+  margin: 0px;
+  padding: 20px;
+}
+
+  /* ABOUT */
+
+  #about-pic-1 {
+  height: 600px;
+  margin-top: 60px;
+  flex-grow: 1;
+  }
+
+  #about-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #about-article-1 {
+  padding: 120px 200px;
+  font-size: 1.4rem;
+  }
+
+  /* SERVICES */
+
+  #services-pic-1 {
+  height: 600px;
+  margin-top: 60px;
+  flex-grow: 1;
+  }
+
+  #services-pic-2 {
+  height: 650px;
+  }
+
+  #services-pic-3 {
+  height: 650px;
+  }
+
+  #services-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #services-article-1 {
+  padding: 120px 200px;
+  font-size: 1.4rem;
+  }
+
+  #services-h3-2 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #services-article-2 {
+  padding: 120px 200px;
+  font-size: 1.4rem;
+  }
+
+  #services-h3-3 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #services-article-3 {
+  padding: 120px 200px;
+  font-size: 1.4rem;
+  }
+
+  /* CONTACT */
+
+  #page4-contact-img1 {
+  height: 600px;
+  margin-top: 60px;
+  flex-grow: 1;
+  }
+
+  #contact-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #contact-article-1 {
+  padding: 120px 140px;
+  font-size: 1.4rem;
+  }
+
+}
+
+/* ------------------------------------------------------------------------*/
+
+/* Large devices (laptops and desktops, 1440px and up) */
+
+@media screen and (min-width: 1440px) {
+
+  /* HOME */
+
+  #home-pic-1 {
+  height: 900px;
+  margin-top: 60px;
+  }
+
+  #home-pic-2 {
+  height: 950px;
+  }
+
+  #home-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #home-article-1 {
+  padding: 180px 290px;
+  font-size: 1.6rem;
+  }
+
+  #home-h3-2 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #home-article-2 {
+  padding: 180px 290px;
+  font-size: 1.6rem;
+  }
+
+  /* ABOUT */
+
+  #about-pic-1 {
+  height: 900px;
+  margin-top: 60px;
+  }
+
+  #about-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #about-article-1 {
+  padding: 120px 200px;
+  font-size: 1.6rem;
+  }
+
+  /* SERVICES */
+
+  #services-pic-1 {
+  height: 900px;
+  margin-top: 60px;
+  }
+
+  #services-pic-2 {
+  height: 900px;
+  }
+
+  #services-pic-3 {
+  height: 900px;
+  }
+
+  #services-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #services-article-1 {
+  padding: 180px 290px;
+  font-size: 1.6rem;
+  }
+
+  #services-h3-2 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #services-article-2 {
+  padding: 180px 290px;
+  font-size: 1.6rem;
+  }
+
+  #services-h3-3 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #services-article-3 {
+  padding: 180px 290px;
+  font-size: 1.6rem;
+  }
+
+  /* CONTACT */
+
+  #page4-contact-img1 {
+  height: 600px;
+  margin-top: 60px;
+  }
+
+  #contact-h3-1 {
+  padding-bottom: 50px;
+  font-size: 2rem;
+  }
+
+  #contact-article-1 {
+  padding: 180px 290px;
+  font-size: 1.6rem;
+  }
+
+}
